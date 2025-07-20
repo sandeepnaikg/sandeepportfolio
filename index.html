@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandeepnaik Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/my-avatar.png"
+      type="image/x-icon"
+      style="height: 50%; width: 50%"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="sandeepnaik">SandeepNaik</h1>
+
+            <p class="title">Full Stack Web Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:gugulothsandeepnaik82@gmail.com"
+                  class="contact-link"
+                  >gugulothsandeepnaik82@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link">9652297686</a>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">Aug 13, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Mahabhubabad,Telangana,India</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/sandeep-naik-067a07254/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/sandeepnaikg" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/imsandy245/"
+                class="social-link"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              "Imagine a website that loads in under a second, engages users
+              instantly, and converts them into loyal customers — that’s the
+              kind of full stack experience I build. I understand what keeps
+              users hooked, and I bring that insight into every line of code."
+            </p>
+
+            <p>
+              I'm Sandeep Naik, a Full Stack Web Developer with a passion for
+              building fast, scalable, and user-friendly web applications. With
+              a solid foundation in both frontend and backend development, I
+              specialize in creating complete digital solutions that are both
+              functional and visually appealing. From designing sleek,
+              responsive user interfaces using React, Next.js, and Tailwind CSS,
+              to building robust backend services with Node.js, Express, and
+              MongoDB, I enjoy bringing ideas to life in the browser. My goal is
+              to write clean, efficient code and craft seamless user experiences
+              that solve real-world problems. Whether it's a startup MVP or a
+              production-ready platform, I’m all about delivering high-quality
+              work that blends technology, design, and performance.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/react-native.png"
+                    alt="react icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX Strategy</h4>
+
+                  <p class="service-item-text">
+                    Creating wireframes, prototypes, and intuitive user journeys
+                    to ensure smooth, user-centered experiences.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/source-code.png"
+                    alt="frontend icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend Development</h4>
+
+                  <p class="service-item-text">
+                    Building responsive, modern interfaces using React and
+                    Tailwind CSS with reusable component-based architecture
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/server.png"
+                    alt="backend icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">
+                    Developing secure, scalable server-side logic and RESTful
+                    APIs to handle complex operations and business logic.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/database.png"
+                    alt="database icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database Integration</h4>
+
+                  <p class="service-item-text">
+                    Working with MongoDB and PostgreSQL for efficient data
+                    storage, management, and querying.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/api.png"
+                    alt="api icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">API Integration</h4>
+
+                  <p class="service-item-text">
+                    Connecting applications with third-party services (REST )
+                    for seamless data flow and automation.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/FFD700/cloud-network.png"
+                    alt="devops icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">DevOps & Deployment</h4>
+
+                  <p class="service-item-text">
+                    Deploying full-stack apps to Vercel, Netlify, or AWS with
+                    CI/CD pipelines and version control using Git.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Prashanth Boda
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I've had the pleasure of working with Sandeep across
+                      several team projects, and what stands out is his calm,
+                      focused approach to both frontend and backend development.
+                      Despite being early in his journey, he consistently writes
+                      clean, efficient code and shows strong problem-solving
+                      skills when debugging complex issues. Beyond tech, Sandeep
+                      is also a passionate athlete—he’s led his college cricket
+                      and volleyball teams to championship victories. His team
+                      spirit, dedication, and ability to stay composed under
+                      pressure shine through in both his coding and sports. A
+                      true all-rounder, both on the field and in the world of
+                      tech.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Jessica miller"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Divya Chandrika
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Sandeep is a driven and detail-oriented full-stack
+                      developer who consistently brings energy and clarity to
+                      any project he's involved in. During our academic
+                      collaborations, I was impressed by his ability to
+                      understand complex requirements and translate them into
+                      functional, user-friendly applications. He’s equally
+                      comfortable working on frontend interfaces and backend
+                      logic, and never hesitates to support the team wherever
+                      needed. His commitment to learning, openness to feedback,
+                      and strong work ethic make him someone you can always
+                      count on.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Emily evans"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Vennela Rathod
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Sandeep has a solid foundation in full-stack web
+                      development and it clearly shows in the way he tackles
+                      technical tasks. His proficiency in technologies like
+                      React, Node.js, and MongoDB allows him to build clean,
+                      functional applications from the ground up. Whether it's
+                      designing intuitive UI components or building secure
+                      backend APIs, he brings precision and structure to every
+                      aspect of his code. Sandeep's ability to quickly adapt and
+                      implement new tools makes him a promising developer with
+                      strong potential in the tech industry.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Henry william"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Sampath Chowdary
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Sandeep isn't just a talented full-stack developer—he’s a
+                      dynamic all-rounder in every sense. Whether he's winning
+                      championships on the cricket field or smashing spikes in
+                      volleyball, his team spirit, discipline, and drive to
+                      excel are always on display. These qualities seamlessly
+                      translate into his work, where he brings both technical
+                      finesse and a winning mindset. From building responsive
+                      web apps to collaborating with peers under pressure,
+                      Sandeep combines skill, energy, and an infectious
+                      enthusiasm that makes working with him a real treat. He’s
+                      the kind of teammate who brings both code and
+                      conversations to life!
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 Aug, 2024</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Tools & Technologies I Know</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
+                    alt="HTML5"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png"
+                    alt="CSS3"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://ih1.redbubble.net/image.815350023.4911/raf,360x360,075,t,fafafa:ca443f4786.u7.jpg"
+                    alt="JavaScript"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://cdn.prod.website-files.com/62038ffc9cd2db4558e3c7b7/623b38335c7b880db9eff54d_react.svg"
+                    alt="React.js"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://i0.wp.com/www.primefaces.org/wp-content/uploads/2017/08/feature-bootstrap.png?ssl=1"
+                    alt="Bootstrap"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/31/tailwind.png"
+                    alt="Tailwind CSS"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"
+                    alt="Next.js"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://pbs.twimg.com/profile_images/2199543684/ejs_400x400.png"
+                    alt="Ejs"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+                    alt="C"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png"
+                    alt="CPP"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://images.icon-icons.com/2108/PNG/512/python_icon_130849.png"
+                    alt="Python"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/181_Java_logo_logos-512.png"
+                    alt="Java"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://miro.medium.com/v2/resize:fit:1400/1*CiVW0IQDeLIYO8uXrd-8dw.png"
+                    alt="Restful APIS"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://user-images.githubusercontent.com/5418178/177059352-fe91dcd5-e17b-4103-88ae-70d6d396cf85.png"
+                    alt="JWT"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://images-cdn.openxcell.com/wp-content/uploads/2024/07/25090553/nodejs-inner.webp"
+                    alt="Node.js"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://adware-technologies.s3.amazonaws.com/uploads/technology/thumbnail/20/express-js.png"
+                    alt="Express.js"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://images.icon-icons.com/2389/PNG/512/socket_io_logo_icon_144874.png"
+                    alt="Socket.io"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png"
+                    alt="MongoDB"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s"
+                    alt="SQL"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <!-- Postman -->
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-TB9d5YXwtKhv4NWbpeTBVveYvcxu9gMJng&s"
+                    alt="Postman"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <!-- VS Code -->
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://icons.veryicon.com/png/o/business/vscode-program-item-icon/vscode.png"
+                    alt="VS Code"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <!-- Git -->
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+                    alt="Git"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <!-- Firebase -->
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://www.gstatic.com/devrel-devsite/prod/vd31e3ed8994e05c7f2cd0cf68a402ca7902bb92b6ec0977d7ef2a1c699fae3f9/firebase/images/touchicon-180.png"
+                    alt="Firebase"
+                    width="40"
+                  />
+                </a>
+              </li>
+
+              <!-- Cloudinary -->
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="https://appexchange.salesforce.com/image_host/2b53bb52-3256-4cdb-860b-cbe896427aeb.png"
+                    alt="Cloudinary"
+                    width="40"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Indian Institute of Information Technology, Sonepat
+                </h4>
+
+                <span>2022 — 2026</span>
+
+                <p class="timeline-text">
+                  Pursuing B.Tech in Computer Science and Engineering. Actively
+                  involved in full-stack development, building real-world web
+                  applications, and representing the institute at prestigious
+                  national-level tech summits like the DPIIT Startup Mahakumbh.
+                  Also a passionate cricketer and volleyball champion, balancing
+                  academics and extracurriculars with dedication and flair.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Narayana IIT Academy,Hyderabad
+                </h4>
+
+                <span>2019-2021</span>
+
+                <p class="timeline-text">
+                  Completed Intermediate with a focus on Mathematics, Physics,
+                  and Chemistry. Trained intensively for engineering entrance
+                  examinations.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Sri Chaitanya E-Techno School, Khammam
+                </h4>
+
+                <span>2018 — 2019</span>
+
+                <p class="timeline-text">
+                  High school education with strong academic performance. Laid
+                  the foundation in science and mathematics, alongside active
+                  participation in sports and extracurricular activities.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  SDE Co-Team Lead — Bluestock Fintech
+                </h4>
+                <span>Feb 2025 — April 2025</span>
+                <p class="timeline-text">
+                  Engineered an IPO Information Platform using React.js and
+                  Node.js, disrupPng traditional data distribution channels and
+                  empowering over 10,000 first-time investors. Developed an
+                  intuitive UI with TailwindCSS for real-time IPO analytics,
+                  implementing a responsive design that led to an 85% increase
+                  in user retention. Architected and implemented a seamless
+                  RESTful API integration, elevating system performance and
+                  scalability, which helped secure additional funding for the
+                  company. Redesigned the data visualization component for IPO
+                  performance metrics, resul3ng in a 30% improvement in user
+                  engagement through enhanced clarity and interactivity.
+                  Integrated real-time stock tracking and alert systems,
+                  boostinng plaform usage and increasing investor activity by
+                  25%.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Web Development Intern — Teachnook
+                </h4>
+                <span>June 2024 — August 2024</span>
+                <p class="timeline-text">
+                  Created and built interactive frontend components with
+                  React.js, creating interactive applications that respond to
+                  actions across various devices. Developed clean UI layouts
+                  utilizing Tailwind CSS, providing a consistent design approach
+                  to layout of architecture components and enhancing user
+                  experience by 40%. Used RESTful APIs to fetch dynamic data to
+                  present to users and communicate real-time changes to allow
+                  streamlined interaction with user interface when making
+                  decisions. Optimized page load time and component performance,
+                  ultimately improving the application by 25% and providing a
+                  smoother user experience. Worked with various cross-functional
+                  teams to develop a strong connection between UI/UX and backend
+                  architecture, ensuring components communicated functionality
+                  across the platform.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <ul class="skills-list content-card">
+              <!-- Technical Skills -->
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML / CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React.js</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Next.js</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Ejs</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Redux</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Node.js & Express.js</h5>
+                  <data value="75">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MongoDB & Mongoose</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SQL</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Socket.io</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tailwind CSS & Bootstrap</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C Programming</h5>
+                  <data value="80">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C++</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Java</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">
+                    (Data Structures & Algorithms proficiency in C++)
+                  </h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <!-- Tools -->
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git & GitHub</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Postman</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Firebase & Cloudinary</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <!-- Soft Skills -->
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Team Leadership</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Problem Solving</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Communication</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://res.cloudinary.com/dbxcernxw/image/upload/v1681220073/Mridul.Tech/Snaps/Disney_Plus_Clone_2_coucnb.webp"
+                      alt="reactjs firebase"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Disney Clone</h3>
+
+                  <p class="project-category">React.js, Firebase</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://repository-images.githubusercontent.com/636382929/7f38c0b4-4ced-441b-a342-5fcfa79ea89b"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Spotify-Clone</h3>
+
+                  <p class="project-category">React.js,firebase</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://us1.discourse-cdn.com/openai1/optimized/4X/6/8/8/688314cba2bc748f96de0b732ec58494107d93ff_2_690x440.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chat GPT</h3>
+
+                  <p class="project-category">React.js Open AI</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://media.licdn.com/dms/image/v2/D4E22AQG0paQnwnrSNg/feedshare-shrink_800/feedshare-shrink_800/0/1725622572850?e=2147483647&v=beta&t=UP4ErgChrMjrZ3w9SMX0L7nTA5XAF7oHOk-U844Bj5A"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Doctor Booking Appointment</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://mintlify.s3.us-west-1.amazonaws.com/retellai/images/cf/overview.jpeg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Conversional Flow AI agent</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets//images/gogetwell.png"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">goGetwell Ai</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+
+              
+<li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://trendlyne-public.s3.ap-south-1.amazonaws.com/emails/newsletters/IPODashboard8522.png"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">IPO dashboard</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+
+
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/website.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Responsive College Website</h3>
+
+                  <p class="project-category">Web Development(html,css,js)</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://uploads-ssl.webflow.com/5f3c19f18169b62a0d0bf387/61ceb80c73b5bf01101abdd5_s_0448860A71BCF3A61C8AA216E420973E3CC3BFA0E3D9B049A744A9FF7BE701CC_1638506749931_Screen%2BShot%2B2021-12-03%2Bat%2B11.44.57.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Zoom Clone</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://i.pinimg.com/736x/38/ff/71/38ff7190b292428c181519fca9d920b7.jpg"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Travel Booking App</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://images.refero.design/screenshots/uber.com/desktop/131653d8-2d55-4daf-b40b-31c1f2cc0667_thumb.jpg"
+                      alt="dsm."
+                      loading="lazy"
+                      
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Uber Clone</h3>
+
+                  <p class="project-category">Full Stack Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIzQo3urHkHtZhDd7bqKaXtLeBPU4EhCC6bA&s"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Mini jam game</h3>
+
+                  <p class="project-category">Full Stack Web Development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">My Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg"
+                      alt="My journey into Full Stack Development"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Web Development</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-03-12">Mar 12, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      My Journey into Full Stack Development
+                    </h3>
+                    <p class="blog-text">
+                      My journey into full-stack web development began with
+                      curiosity and quickly turned into a passion. What started
+                      as a simple interest in how websites work grew into a deep
+                      fascination with building seamless, interactive digital
+                      experiences from front to back. "Imagine a website that
+                      loads in under a second, engages users instantly, and
+                      converts them into loyal customers — that’s the kind of
+                      full stack experience I build. I understand what keeps
+                      users hooked, and I bring that insight into every line of
+                      code."
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://uietmdu.in/wp-content/uploads/2024/05/Indian-Institute-Of-Information-Technology-IIIT-Sonepat-1.png"
+                      alt="IIIT Sonepat Life"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">College Life</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-02-11">Feb 11, 2025</time>
+                    </div>
+                    <h3 class="h3 blog-item-title">
+                      Life at IIIT Sonepat: Projects, Events & Growth
+                    </h3>
+                    <p class="blog-text">
+                      From coding sprints to startup meetups and late-night
+                      debugging — my journey as a CSE student at one of India's
+                      top IIITs has been nothing short of transformative. My
+                      time at IIIT Sonepat has been a blend of intense learning,
+                      hands-on projects, and moments of joy on the cricket field
+                      and volleyball court. I’ve led teams, built full-stack web
+                      apps, explored the startup ecosystem, and balanced it all
+                      alongside GATE preparation and academic rigor. It’s been a
+                      ride of growth, resilience, and finding my passion through
+                      every line of code and every challenge faced.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://s3.ap-south-1.amazonaws.com/content.imsindia.com/ims-india/wp-content/uploads/2024/03/images-031.webp"
+                      alt="My GATE Prep Experience"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Personal</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-01-10">Jan 10, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Balancing GATE Prep and Projects
+                    </h3>
+                    <p class="blog-text">
+                      Alongside my journey in web development, I’ve been
+                      actively preparing for the GATE CSE exam—sharpening my
+                      understanding of core computer science concepts like OS,
+                      DBMS, and Algorithms. This preparation has not only
+                      deepened my technical foundation but also strengthened my
+                      problem-solving approach. At the same time, I’ve taken on
+                      project management roles in team-based tech
+                      projects—handling planning, coordination, and delivery.
+                      Whether it's leading frontend/backend integration or
+                      aligning tasks during tight timelines, I've enjoyed
+                      ensuring the team stays on track and the vision is
+                      executed smoothly. This balance of technical depth and
+                      leadership has been incredibly rewarding.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets//images/startup.jpeg"
+                      alt="Startup Mahakumbh Experience"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Events</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-03-20">Mar 20, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      What I Learned at Startup Mahakumbh
+                    </h3>
+                    <p class="blog-text">
+                      A major highlight was my interaction with the Ministry of
+                      Tribal Affairs,Beyond that, I had the chance to connect
+                      with startups from across India, exchanging ideas,
+                      learning from their journeys, and gaining fresh
+                      perspectives on innovation and entrepreneurship. This
+                      experience deeply inspired me to keep building solutions
+                      that truly matter.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="https://www.alfredstate.edu/sites/default/files/Career%20Development/images/Internship.jpg"
+                      alt="My Internship at Bluestock"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Internships</p>
+                      <span class="dot"></span>
+                      <time datetime="2024-08-15">Feb1, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      My SDE Internship at BlueStock Fintech
+                    </h3>
+                    <p class="blog-text">
+                      Had the opportunity to work as a Co-Team Lead during my
+                      internship at Bluestock Fintech. I helped manage tasks,
+                      guided teammates, and ensured smooth communication between
+                      developers and other teams. This role helped me improve my
+                      leadership, teamwork, and problem-solving skills.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/trophy.agnito2024.jpeg"
+                      alt="Balancing Sports and Tech"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Life</p>
+                      <span class="dot"></span>
+                      <time datetime="2025-01-05">Jan 5, 2025</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      How Cricket and Volleyball Made Me a Better Developer
+                    </h3>
+                    <p class="blog-text">
+                      Playing cricket and volleyball has significantly shaped
+                      who I am—not just as an athlete, but as a developer. These
+                      sports have taught me the importance of teamwork, quick
+                      decision-making, and clear communication—skills that
+                      directly translate into collaborative coding and agile
+                      development. The discipline and consistency required on
+                      the field help me stay focused during long development
+                      cycles, while the pressure of competitive matches has
+                      trained me to stay calm and think clearly under tight
+                      deadlines. Just like in sports, I’ve learned to embrace
+                      challenges, grow from mistakes, and always strive to
+                      improve—qualities that fuel my journey as a full-stack
+                      developer.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5818987503755!2d80.16758861487748!3d17.457201288036053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a345e0a9b238af3%3A0x48d27f92d3e422e4!2sDornakal%2C%20Telangana%20506814%2C%20India!5e0!3m2!1sen!2sin!4v1712814052523!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+        </article>
+        a
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
